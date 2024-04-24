@@ -24,12 +24,28 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:comercial@vittaambiental.com.br">comercial@vittaambiental.com.br</a>
+        <i class="bi bi-phone-fill phone-icon"></i> (21) 96412-9643
+      </div>
+      <div class="cta d-none d-md-block">
+        <a href="#contact" class="scrollto">Contato</a>
+      </div>
+    </div>
+  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
@@ -42,9 +58,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#why-us">Quem somos</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Investimento</a></li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+          <li><a class="nav-link scrollto" href="#about">Quem somos</a></li>
+          <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
           <!--<li><a class="getstarted scrollto" href="#about">Get Started</a></li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -63,21 +78,23 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/01.jpg);">
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/04.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">LICENCIAMENTO AMBIENTAL</h2>
-                <p class="animate__animated animate__fadeInUp">OBRIGAÇÃO LEGAL PRÉVIA À INSTALAÇÃO DE QUALQUER EMPREENDIMENTO OU ATIVIDADE POTENCIALMENTE POLUIDORA OU DEGRADADORA DO MEIO AMBIENTE</p>
+                <h2 class="animate__animated animate__fadeInDown slide-title">A VITTA AMBIENTAL</h2>
+                <h2 class="animate__animated animate__fadeInDown slide-title slide-line" style="color: #00b600;">E SEGURANÇA DO TRABALHO</h2>
+                <p class="animate__animated animate__fadeInUp">Proporcionamos suporte às empresas para garantir conformidade com as leis de segurança, saúde, medicina ocupacional e sustentabilidade ambiental, por meio de iniciativas educativas e preventivas.</p>
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/02.jpg);">
+          <div class="carousel-item" style="background-image: url(assets/img/slide/01.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">COLETA E ANÁLISES DE AMOSTRAS</h2>
-                <p class="animate__animated animate__fadeInUp">A ANÁLISE DE SOLO É ESSENCIAL PARA AVALIAR SUA FERTILIDADE, POIS É POSSÍVEL REALIZAR MANEJO QUÍMICO DO SOLO DE MANEIRA EFICIENTE E ECONÔMICA</p>
+                <h2 class="animate__animated animate__fadeInDown slide-title">Nossa Missão</h2>
+                <h2 class="animate__animated animate__fadeInDown slide-title slide-line" style="color: #00b600;">AMBIENTAL</h2>
+                <p class="animate__animated animate__fadeInUp">Fornecer soluções ambientais inovadoras, executadas com responsabilidade, planejamento e qualidade.</p>
                 <!-- <div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div> -->
@@ -86,11 +103,12 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/03.jpg);">
+          <div class="carousel-item" style="background-image: url(assets/img/slide/02.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">GERENCIAMENTO DE RESÍDUO</h2>
-                <p class="animate__animated animate__fadeInUp">A GESTÃO E O GERENCIAMENTO DE RESÍDUOS ENVOLVE TODO O SETOR DE RESÍDUOS E DEVE SER ABORDADO DE UMA MANEIRA COMPLETA</p>
+                <h2 class="animate__animated animate__fadeInDown slide-title">Nossa Visão</h2>
+                <h2 class="animate__animated animate__fadeInDown slide-title" style="color: #00b600;">INOVAÇÃO</h2>
+                <p class="animate__animated animate__fadeInUp">Ser referência em legalização ambiental, e projetos inovadores de solução ambiental e segurança do trabalho.</p>
                 <!-- <div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div> -->
@@ -99,24 +117,12 @@
           </div>
 
           <!-- Slide 4 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/04.jpg);">
+          <div class="carousel-item" style="background-image: url(assets/img/slide/06.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">SEGURANÇA DO TRABALHO</h2>
-                <p class="animate__animated animate__fadeInUp">COM O PROFISSIONAL BEM TREINADO SUA EMPRESA PODE CRESCER CADA VEZ MAIS NO MERCADO, E NÓS DA VITTA OFERECEMOS O TREINAMENTO COMPLETO</p>
-                <!-- <div>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div> -->
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 5 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/05.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">ESTAÇÃO DE TRATAMENTO DE ESGOTO - ETE</h2>
-                <p class="animate__animated animate__fadeInUp">PROCESSOS QUE REMOVEM AS CARGAS POLUENTES DO ESGOTO, EM CONFORMIDADE COM OS PADRÕES EXIGIDOS PELA LEGISLAÇÃO AMBIENTAL</p>
+                <h2 class="animate__animated animate__fadeInDown slide-title">Nossos Valores</h2>
+                <h2 class="animate__animated animate__fadeInDown slide-title" style="color: #00b600;">APERFEIÇOAMENTO</h2>
+                <p class="animate__animated animate__fadeInUp">Satisfação dos clientes através do atendimento de suas necessidades especificas.</p>
                 <!-- <div>
                   <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div> -->
@@ -140,53 +146,8 @@
 
   <main id="main">
 
-        <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <!--         
-          <div class="section-title">
-            <h2>Quem Somos</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-          </div>
-        -->
-
-        <div class="row">
-
-          <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="box icon-box">
-              <div class="icon"><i class="bi bi-people"></i></div>
-              <span>MISSÃO</span>
-              <h4>Ambiental</h4>
-              <p>Fornecer soluções ambientais inovadoras, executadas com responsabilidade, planejamento e qualidade.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <div class="icon"><i class="bi bi-eye"></i></div>
-              <span>VISÃO</span>
-              <h4>Inovação</h4>
-              <p>Ser referência em legalização ambiental, e projetos inovadores de solução ambiental e segurança do trabalho.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <div class="icon"><i class="bi bi-gem"></i></div>
-              <span>VALORES</span>
-              <h4>Aperfeiçoamento</h4>
-              <p>Satisfação dos clientes através do atendimento de suas necessidades especificas.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
     <!-- ======= About Section ======= --> 
-    <section id="about" class="about bg-light" data-aos="fade-up" data-aos-delay="100">
+    <section id="about" class="about" data-aos="fade-up" data-aos-delay="100">
       <div class="container">
 
         <div class="section-title">
@@ -195,41 +156,126 @@
 
         <div class="row no-gutters py-4">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="content py-0 d-flex flex-column justify-content-center">
-              <h4 class="mb-4">A VITTA AMBIENTAL E SEGURANÇA DO TRABALHO</h4>
-              <p>
-                A VITTA AMBIENTAL E SEGURANÇA DO TRABALHO é uma empresa que, pautada nos princípios da sustentabilidade, oferece soluções compatíveis com o desenvolvimento ambiental, econômico e social. <br><br>
+            <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+              <div class="content d-flex flex-column justify-content-center px-3 pt-0">
+                <h3>A VITTA AMBIENTAL</h3>
+                <h3 style="color: #377e49">E SEGURANÇA DO TRABALHO</h3>
+                <p class="my-3">
+                  <strong>A VITTA AMBIENTAL E SEGURANÇA DO TRABALHO</strong> é uma empresa comprometida com a <strong>excelência e a sustentabilidade</strong> , oferecendo <strong>soluções abrangentes e inovadoras</strong>  para promover um ambiente de trabalho seguro e contribuir para o <strong>desenvolvimento ambiental, econômico e social.</strong>  <br> <br>
 
-                O quadro societário da VITTA, é composto por profissionais com mais de 10 (dez) anos de experiência na área ambiental e segurança do trabalho, nos setores públicos e privados. <br> <br>
+                  Nossa equipe é formada por profissionais altamente qualificados, com mais de <strong>dez anos de experiência na área ambiental e de segurança do trabalho,</strong>  provenientes de diversos setores, tanto públicos quanto privados. Combinamos nossa expertise para oferecer <strong>serviços especializados</strong> e <strong>soluções sob medida</strong>  para atender às necessidades específicas de cada cliente. <br> <br>
 
-                A empresa prima pela qualidade nos serviços que oferece, com equipe multidisciplinares e altamente qualificada. <br><br>
-              </p>
-              <!--
-              <div class="row">
-                <div class="col-md-6 icon-box">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-              </div>
-            </div> End .content-->
-          </div>
+                  Pautados nos princípios da sustentabilidade, buscamos constantemente maneiras de <strong>minimizar os impactos ambientais e promover práticas responsáveis</strong>  em todos os aspectos de nossos serviços. Acreditamos que é possível <strong>conciliar o crescimento econômico com a preservação do meio ambiente e o bem-estar social.</strong> 
+                </p>
+              </div><!-- End .content-->
+            </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container">
+       
+        <div class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <h2>Porque nos escolher</h2>
+          <!-- <p class="my-4">
+            Oferecemos uma variedade de serviços visando mitigar os riscos e aprimorar o bem-estar, desempenho e qualidade de vida dos colaboradores em seus locais de trabalho, ao mesmo tempo em que promovemos a preservação ambiental. Proporcionamos suporte às empresas para garantir conformidade com as leis de segurança, saúde, medicina ocupacional e sustentabilidade ambiental, por meio de iniciativas educativas e preventivas.
+          </p> -->
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="box icon-box">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h4 class="mb-1">Nossos</h4>
+              <span class="poppins-medium mb-3">Profissionais</span>              
+              <p>O quadro societário da VITTA, é composto por profissionais com mais de dez anos de experiência na área ambiental e segurança do trabalho, nos setores públicos e privados.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="box icon-box">
+              <div class="icon"><i class="bi bi-eye"></i></div>
+              <h4 class="mb-1">Nossas</h4>
+              <span class="poppins-medium mb-3">Soluções</span>
+              <p> Nossa vasta experiência nos capacita a oferecer soluções eficazes para atender às especificidades de cada cliente, garantindo um ambiente de trabalho seguro e de acordo com as regulamentações ambientais.              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="box icon-box">
+              <div class="icon"><i class="bi bi-gem"></i></div>
+              <h4 class="mb-1">Nossa</h4>
+              <span class="poppins-medium mb-3">Excelência</span>
+              <p>A empresa prima pela qualidade nos serviços oferecidos, com equipe multidisciplinar e altamente qualificada para fornecer soluções eficazes aos clientes.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contato</h2>
-          <p>Entre em contato conosco e descubra como nossos serviços visam prevenir riscos e aprimorar os níveis de saúde, produtividade e qualidade de vida dos trabalhadores em seu ambiente profissional.</p>
+          <h2>Nossos Serviços</h2>
+          <p class="my-4">
+            Descubra como nossos serviços em segurança do trabalho e meio ambiente podem fortalecer sua empresa. Com uma abordagem especializada e soluções eficazes, protegemos sua equipe e promovemos a sustentabilidade ambiental.</p>
         </div>
 
-        <div class="row contact-info">
+        <div class="row py-4 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-tree"></i></div>
+            <h4 class="title"><a href="">Licenciamento Ambiental</a></h4>
+            <p class="description">Obrigação legal prévia à instalação de qualquer empreendimento ou atividade potencialmente poluidora ou degradadora ao meio ambiente.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Coleta e Análise de Amostras</a></h4>
+            <p class="description">A análise de solo é essencial para avaliar sua fertilidade, pois é possível realizar manejo químico do solo de maneira eficiente e econômica.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-trash3"></i></div>
+            <h4 class="title"><a href="">Gerenciamento de Resíduos</a></h4>
+            <p class="description">A gestão e o gerenciamento de resíduos envolve todo o setor de resíduos e deve ser abordado de uma maneira completa.</p>
+          </div>
+        </div>
+        <div class="row py-4 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-building"></i></div>
+            <h4 class="title"><a href="">Segurança do Trabalho</a></h4>
+            <p class="description">Oferecemos avaliações de risco e consultoria especializada para garantir um ambiente de trabalho seguro e de acordo com as normas regulamentadoras.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-water"></i></div>
+            <h4 class="title"><a href="">Estação de Tratamento de Esgoto - ETE</a></h4>
+            <p class="description">Processos que removem as cargas poluentes do esgoto, em conformidade com os padrões exigidos pela legislação ambiental.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-book"></i></div>
+            <h4 class="title"><a href="">Treinamentos (Teórico e prático)</a></h4>
+            <p class="description">Com o profissional bem treinado sua empresa pode crescer cada vez mais no mercado, e nós da VITTA oferecemos o treinamento completo.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container contact-info p-5 py-4">
+
+        <div class="section-title mt-3">
+          <h2 class="text-white opacity-75">Contato</h2>
+          <p class="text-white mt-4">Entre em contato conosco e descubra como nossos serviços visam prevenir riscos e aprimorar os níveis de saúde, produtividade e qualidade de vida dos trabalhadores em seu ambiente profissional.</p>
+        </div>
+
+        <div class="row my-3">
 
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-address">
@@ -258,8 +304,7 @@
         </div>
 
         <!-- <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
+               <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               </div>
@@ -313,9 +358,9 @@
             <h4>MAPA DO SITE</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">HOME</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">QUEM SOMOS</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">INVESTIMENTOS</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">CONTATO</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">QUEM SOMOS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">SERVIÇOS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">CONTATO</a></li>
             </ul>
           </div>
 

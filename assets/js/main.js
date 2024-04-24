@@ -68,6 +68,32 @@
     })
   }
 
+  let selectHeader = select('#header')
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 100) {
+        selectHeader.classList.add('header-scrolled')
+      } else {
+        selectHeader.classList.remove('header-scrolled')
+      }
+    }
+    window.addEventListener('load', headerScrolled)
+    onscroll(document, headerScrolled)
+  }
+
+  let selectBar = select('#topbar')
+  if (selectBar) {
+    const barScrolled = () => {
+      if (window.scrollY > 100) {
+        selectBar.classList.add('bar-scrolled')
+      } else {
+        selectBar.classList.remove('bar-scrolled')
+      }
+    }
+    window.addEventListener('load', barScrolled)
+    onscroll(document, barScrolled)
+  }
+
   /**
    * Back to top button
    */
